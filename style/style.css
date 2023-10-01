@@ -8,6 +8,11 @@ body {
     font-size: 20px;
 }
 
+button {
+    cursor: pointer;
+}
+
+
 header {
     max-width: 100%;
     height: 100vh;
@@ -27,6 +32,7 @@ header {
     width: 144px;
     height: 46px;
     margin-left: 120px;
+    cursor: pointer;
 }
 
 nav {
@@ -46,6 +52,7 @@ li {
     font-weight: 600;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
 .apply_btn {
@@ -169,10 +176,6 @@ option {
     background-color: #10c98f;
 }
 
-option:hover {
-    background-color: #ffffff;
-}
-
 .final_pay {
     display: inline-flex;
 }
@@ -258,6 +261,7 @@ option:hover {
     font-size: 120%;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
 .section_card h3:hover {
